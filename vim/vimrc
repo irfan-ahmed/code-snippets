@@ -1,0 +1,16 @@
+" set tab spacing to 4 spaces
+:se ts=4
+" set colorscheme
+:colorscheme default
+" set file format to unix
+set ffs=unix
+" expant tabs to spaces
+:se expandtab
+" enable smart and auto indentation, syntax highlighting and file type detection
+:se autoindent
+:se smartindent
+syntax on
+filetype on
+" make F5 toggle paste mode. This prevents vim from adding extra spaces while copying code.
+:se pastetoggle=<F5>
+
